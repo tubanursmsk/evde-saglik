@@ -38,6 +38,13 @@
   <!-- Favicon -->
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
 
+  <!-- Anchor scroll: sayfa ici linklerde uste padding birakir ki sabit ust bar baslıgi gizlemesin -->
+  <style>
+    section[id] {
+      scroll-margin-top: 100px;
+    }
+  </style>
+
 </head>
 
 
@@ -101,23 +108,23 @@
               </div>
               <strong>E-posta</strong>
               <br>
-              <a href="mailto:info@medic.com">
-                <span>info@medic.com</span>
+              <a href="mailto:[e-posta-adresiniz@ornek.com]">
+                <span>[e-posta-adresiniz@ornek.com]</span>
               </a>
             </li>
             <li class="item text-left">
               <div class="icon-box">
                 <i class="fas fa-phone"></i>
               </div>
-              <strong>Hemen Ara</strong>
+              <strong>Hemen Arayın</strong>
               <br>
-               <a href="tel:+90XXXXXXXXXX">
+              <a href="tel:+90XXXXXXXXXX">
                 <span>+90 (XXX) XXX XX XX</span>
               </a>
             </li>
           </ul>
           <div class="link-btn text-center text-lg-right">
-            <a href="contact.html" class="btn-style-one">Randevu Oluştur</a>
+            <a href="appointment.html" class="btn-style-one">Randevu Oluştur</a>
           </div>
         </div>
       </div>
@@ -125,7 +132,6 @@
   </div>
 </section>
 <!--Header Upper-->
-
 
 
 <!--Main Header-->
@@ -183,98 +189,76 @@
 </section>
 <!--End Page Title-->
 
+<!-- Üst bölge: Tanıtım + SSS -->
 <section class="service-overview section">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 mb-5 mb-lg-0">
         <div class="content-block">
-          <h2>Clinical And <br>Medical Education</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eius optio repellendus quasi nisi vitae
-            laboriosam explicabo eligendi sapiente in.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, dolorum esse tempora id architecto
-            laboriosam.
-          </p>
+          <h2>Evinizin <br>Konforunda Profesyonel Sağlık</h2>
+          <p>[Firma Adı] olarak [Şehir] ve çevresinde, ihtiyaca özel beş ana hizmet sunuyoruz: <strong>evde hemşirelik, yaşlı ve hasta bakımı, evde doktor muayenesi, enjeksiyon ve serum uygulamaları, evde fizik tedavi</strong>. Her hizmetimiz uzman kadromuzla, hastane standartlarında hijyenle uygulanır.</p>
           <ul>
-            <li><i class="fas fa-caret-right"></i>vitae laboriosam explicabo eligendi sapiente</li>
-            <li><i class="fas fa-caret-right"></i>consectetur adipisicing elit. Beatae</li>
-            <li><i class="fas fa-caret-right"></i>dolorum esse tempora id architecto</li>
-            <li><i class="fas fa-caret-right"></i>optio repellendus quasi nisi vitae</li>
+            <li><i class="fas fa-caret-right"></i>Sertifikalı uzman kadro</li>
+            <li><i class="fas fa-caret-right"></i>Tek kullanımlık steril malzeme</li>
+            <li><i class="fas fa-caret-right"></i>Şeffaf, ön bilgilendirmeli fiyatlandırma</li>
+            <li><i class="fas fa-caret-right"></i>Hızlı yanıt ve esnek randevu</li>
           </ul>
-          <a href="appointment.html" class="btn btn-style-one">Appoint</a>
+          <a href="appointment.html" class="btn btn-style-one">Randevu Al</a>
         </div>
       </div>
       <div class="col-lg-6">
         <div class="accordion-section">
+          <div class="section-title mb-3">
+            <h3>Sık Sorulan Sorular</h3>
+          </div>
           <div class="accordion-holder">
             <div class="accordion" id="accordionGroup" role="tablist" aria-multiselectable="true">
+
               <div class="card">
                 <div class="card-header" role="tab" id="headingOne">
                   <h4 class="card-title">
                     <a role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Why Should I choose Medical Health
+                      Hizmet için doktor raporu/reçete gerekli mi?
                     </a>
                   </h4>
                 </div>
                 <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordionGroup">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-                    officia aute,
-                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                    tempor,
-                    sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-                    helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-                    vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-                    haven't
-                    heard of them accusamus labore sustainable VHS.
+                    Hizmet türüne göre değişir. Enjeksiyon ve serum uygulamaları için doktor reçetesi zorunludur. Hasta bakımı, yaşlı bakımı veya genel hemşirelik hizmetleri için reçete gerekmez ancak doktor onayı/raporu varsa bakım planını daha doğru oluşturmamızı sağlar.
                   </div>
                 </div>
               </div>
+
               <div class="card">
                 <div class="card-header" role="tab" id="headingTwo">
                   <h4 class="card-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" href="#collapseTwo"
-                      aria-expanded="false" aria-controls="collapseTwo">
-                      What are the Centre’s visiting hours?
+                    <a class="collapsed" role="button" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Hangi bölgelere hizmet veriyorsunuz?
                     </a>
                   </h4>
                 </div>
                 <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordionGroup">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-                    officia aute,
-                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                    tempor,
-                    sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-                    helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-                    vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-                    haven't
-                    heard of them accusamus labore sustainable VHS.
+                    [Şehir] ve yakın çevresinde hizmet veriyoruz. Bulunduğunuz semt/ilçe için hizmet verip vermediğimizi öğrenmek için bizi arayabilir veya WhatsApp üzerinden mesaj atabilirsiniz: [Hizmet bölgelerinizi listeleyin - örn. "Konak, Karşıyaka, Bornova, Buca, Karabağlar..."].
                   </div>
                 </div>
               </div>
+
               <div class="card">
                 <div class="card-header" role="tab" id="headingThree">
                   <h4 class="card-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" href="#collapseThree"
-                      aria-expanded="false" aria-controls="collapseThree">
-                      How many visitors are allowed?
+                    <a class="collapsed" role="button" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Sigortam hizmet bedelini karşılar mı?
                     </a>
                   </h4>
                 </div>
                 <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordionGroup">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-                    officia aute,
-                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                    tempor,
-                    sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-                    helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-                    vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-                    haven't
-                    heard of them accusamus labore sustainable VHS.
+                    Bazı özel sağlık sigortalarının evde bakım/sağlık paketleri vardır; sigortacınızdan teyit edebilirsiniz. Hizmet bedelimiz için fatura düzenler, sigortanıza ibraz etmenize yardımcı oluruz. SGK kapsamında evde sağlık hizmeti devletin verdiği farklı bir programdır; özel hizmet aldığınızda bu kapsam dışında kalır.
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
         </div>
@@ -283,155 +267,165 @@
   </div>
 </section>
 
-<section class="section pt-0">
+<!-- 1. EVDE HEMŞİRELİK -->
+<section class="section pt-0" id="evde-hemsirelik">
   <div class="container service-box">
     <div class="row">
       <div class="col-lg-6">
-        <img loading="lazy" class="img-fluid" src="images/services/service-one.jpg" alt="service-image">
+        <img loading="lazy" class="img-fluid" src="images/services/service-one.jpg" alt="Evde hemşirelik hizmeti">
       </div>
       <div class="col-lg-6">
         <div class="contents">
           <div class="section-title">
-            <h3>pulmonary</h3>
+            <h3>Evde Hemşirelik</h3>
           </div>
           <div class="text">
-            <p>The implant fixture is first placed, so that it ilikely to osseointegrate, then a dental prosthetic
-              is added.
-              then a dental prosthetic is added.then a dental pros- thetic is added.</p>
-            <p>The implant fixture is first placed, so that it ilikely to osseointegrate, then a dental prosthetic
-              is added.
-              then a dental prosthetic is added.then a dental pros- thetic is added.</p>
+            <p>Hastane çıkışı sonrası iyileşme süreci, kronik hastalık takibi veya rutin tıbbi uygulamalar için sertifikalı hemşirelerimiz evinize gelir. Hastane standartlarında bir bakımı, evinizin huzurunda alın.</p>
+            <p>Pansuman değişiminden sonda bakımına, hastane çıkışı kontrollerinden ilaç uygulamalarına kadar geniş bir hizmet yelpazesi sunuyoruz. Her hastamız için doktorunun onayladığı bakım planına sadık kalıyoruz.</p>
           </div>
           <ul class="content-list">
-            <li>
-              <i class="far fa-check-circle"></i>Whitening is among the most popular dental</li>
-            <li>
-              <i class="far fa-check-circle"></i>Teeth cleaning is part of oral hygiene and involves</li>
-            <li>
-              <i class="far fa-check-circle"></i>Teeth cleaning is part of oral hygiene and involves</li>
+            <li><i class="far fa-check-circle"></i>Pansuman ve yara bakımı</li>
+            <li><i class="far fa-check-circle"></i>Sonda (idrar, beslenme) takibi ve değişimi</li>
+            <li><i class="far fa-check-circle"></i>Ameliyat sonrası iyileşme kontrolü</li>
+            <li><i class="far fa-check-circle"></i>İlaç uygulamaları ve takibi</li>
           </ul>
-          <a href="service.html" class="btn btn-style-one">Devamını Oku</a>
+          <a href="appointment.html" class="btn btn-style-one">Randevu Al</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!--Service Section-->
-<section class="service-section bg-gray section">
-  <div class="container">
-    <div class="section-title text-center">
-      <h3>Provided
-        <span>Services</span>
-      </h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet. qui suscipit atque <br>
-        fugiat officia corporis rerum eaque neque totam animi, sapiente culpa. Architecto!</p>
-    </div>
+<!-- 2. YAŞLI VE HASTA BAKIMI -->
+<section class="section pt-0 bg-gray" id="yasli-hasta-bakimi" style="padding-top: 60px !important; padding-bottom: 60px;">
+  <div class="container service-box">
     <div class="row">
-      <div class="col-lg-12">
-        <div class="items-container">
-          <div class="item">
-            <div class="inner-box">
-              <div class="img_holder">
-                <a href="service.html">
-                  <img loading="lazy" src="images/gallery/1.jpg" alt="images" class="img-fluid">
-                </a>
-              </div>
-              <div class="image-content text-center">
-                <span>Better Service At Low Cost</span>
-                <a href="service.html">
-                  <h6>Dormitory</h6>
-                </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
-              </div>
-            </div>
+      <div class="col-lg-6 order-1 order-lg-0">
+        <div class="contents">
+          <div class="section-title">
+            <h3>Yaşlı ve Hasta Bakımı</h3>
           </div>
-          <div class="item">
-            <div class="inner-box">
-              <div class="img_holder">
-                <a href="service.html">
-                  <img loading="lazy" src="images/gallery/2.jpg" alt="images" class="img-fluid">
-                </a>
-              </div>
-              <div class="image-content text-center">
-                <span>Better Service At Low Cost</span>
-                <a href="service.html">
-                  <h6>Germs Protection</h6>
-                </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
-              </div>
-            </div>
+          <div class="text">
+            <p>Sevdiklerinizin günlük yaşamını kolaylaştıran kapsamlı bakım hizmeti. Beslenme, hijyen, ilaç takibi ve sosyal etkileşim — yaşamın her parçası için profesyonel bakım personelimizle yanınızdayız.</p>
+            <p>Hizmetimiz saatlik, gündüz, gece veya 7/24 olarak planlanabilir. Hasta yakınlarının iş ve günlük yaşamlarına devam edebilmesi için esnek seçenekler sunuyoruz.</p>
           </div>
-          <div class="item">
-            <div class="inner-box">
-              <div class="img_holder">
-                <a href="service.html">
-                  <img loading="lazy" src="images/gallery/3.jpg" alt="images" class="img-fluid">
-                </a>
-              </div>
-              <div class="image-content text-center">
-                <span>Better Service At Low Cost</span>
-                <a href="service.html">
-                  <h6>Psycology</h6>
-                </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
-              </div>
-            </div>
+          <ul class="content-list">
+            <li><i class="far fa-check-circle"></i>Günlük kişisel bakım ve hijyen</li>
+            <li><i class="far fa-check-circle"></i>İlaç takibi ve düzenli kontrol</li>
+            <li><i class="far fa-check-circle"></i>Beslenme desteği</li>
+            <li><i class="far fa-check-circle"></i>Refakat ve sosyal destek</li>
+          </ul>
+          <a href="appointment.html" class="btn btn-style-one">Randevu Al</a>
+        </div>
+      </div>
+      <div class="col-lg-6 order-0 order-lg-1 mb-4 mb-lg-0">
+        <img loading="lazy" class="img-fluid" src="images/services/service-two.jpg" alt="Yaşlı ve hasta bakımı">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. EVDE DOKTOR MUAYENESI -->
+<section class="section pt-0" id="evde-doktor-muayenesi" style="padding-top: 60px !important;">
+  <div class="container service-box">
+    <div class="row">
+      <div class="col-lg-6">
+        <img loading="lazy" class="img-fluid" src="images/services/service-three.jpg" alt="Evde doktor muayenesi">
+      </div>
+      <div class="col-lg-6">
+        <div class="contents">
+          <div class="section-title">
+            <h3>Evde Doktor Muayenesi</h3>
           </div>
-          <div class="item">
-            <div class="inner-box">
-              <div class="img_holder">
-                <a href="service.html">
-                  <img loading="lazy" src="images/gallery/1.jpg" alt="images" class="img-fluid">
-                </a>
-              </div>
-              <div class="image-content text-center">
-                <span>Better Service At Low Cost</span>
-                <a href="service.html">
-                  <h6>Dormitory</h6>
-                </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
-              </div>
-            </div>
+          <div class="text">
+            <p>Hastaneye gitmek yorucu olduğunda ya da hareket kısıtlılığı bulunduğunda doktorumuz evinize gelir. Genel muayene, kronik hastalık takibi ve reçete yenileme hizmetleri sunuyoruz.</p>
+            <p>Özellikle ileri yaş hastalarımız, ameliyat sonrası dönemde olanlar ve mobilitesi kısıtlı bireyler için ideal bir çözüm. Hastane stresinden uzak, sakin bir ortamda doktorla yüz yüze görüşme imkanı.</p>
           </div>
-          <div class="item">
-            <div class="inner-box">
-              <div class="img_holder">
-                <a href="service.html">
-                  <img loading="lazy" src="images/gallery/2.jpg" alt="images" class="img-fluid">
-                </a>
-              </div>
-              <div class="image-content text-center">
-                <span>Better Service At Low Cost</span>
-                <a href="service.html">
-                  <h6>Germs Protection</h6>
-                </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="inner-box">
-              <div class="img_holder">
-                <a href="service.html">
-                  <img loading="lazy" src="images/gallery/3.jpg" alt="images" class="img-fluid">
-                </a>
-              </div>
-              <div class="image-content text-center">
-                <span>Better Service At Low Cost</span>
-                <a href="service.html">
-                  <h6>Psycology</h6>
-                </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
-              </div>
-            </div>
-          </div>
+          <ul class="content-list">
+            <li><i class="far fa-check-circle"></i>Genel sağlık değerlendirmesi</li>
+            <li><i class="far fa-check-circle"></i>Kronik hastalık (tansiyon, diyabet vb.) takibi</li>
+            <li><i class="far fa-check-circle"></i>Reçete yenileme ve danışmanlık</li>
+            <li><i class="far fa-check-circle"></i>Doktor onaylı sevk ve yönlendirme</li>
+          </ul>
+          <a href="appointment.html" class="btn btn-style-one">Randevu Al</a>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!--End Service Section-->
+
+<!-- 4. ENJEKSIYON VE SERUM -->
+<section class="section pt-0 bg-gray" id="enjeksiyon-serum" style="padding-top: 60px !important; padding-bottom: 60px;">
+  <div class="container service-box">
+    <div class="row">
+      <div class="col-lg-6 order-1 order-lg-0">
+        <div class="contents">
+          <div class="section-title">
+            <h3>Enjeksiyon ve Serum</h3>
+          </div>
+          <div class="text">
+            <p>Doktor reçetesi ile düzenli antibiyotik kürü, B12 ve demir takviyesi, kortizon uygulamaları veya serum tedavisi için evinize geliyoruz. Hijyenik, hızlı, güvenli.</p>
+            <p>Her enjeksiyon uygulaması tek kullanımlık steril malzemelerle yapılır. Uygulamadan önce reçete ve doz kontrolü yapılır, sonrasında olası yan etkiler için kısa bir gözlem süresi tutulur.</p>
+          </div>
+          <ul class="content-list">
+            <li><i class="far fa-check-circle"></i>İntramüsküler (kas içi) enjeksiyon</li>
+            <li><i class="far fa-check-circle"></i>İntravenöz (damar içi) serum uygulaması</li>
+            <li><i class="far fa-check-circle"></i>B12, demir, kortizon ve antibiyotik kürleri</li>
+            <li><i class="far fa-check-circle"></i>Tek kullanımlık steril malzeme</li>
+          </ul>
+          <a href="appointment.html" class="btn btn-style-one">Randevu Al</a>
+        </div>
+      </div>
+      <div class="col-lg-6 order-0 order-lg-1 mb-4 mb-lg-0">
+        <img loading="lazy" class="img-fluid" src="images/services/service-four.jpg" alt="Evde enjeksiyon ve serum">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. EVDE FIZIK TEDAVI -->
+<section class="section pt-0" id="fizik-tedavi" style="padding-top: 60px !important;">
+  <div class="container service-box">
+    <div class="row">
+      <div class="col-lg-6">
+        <img loading="lazy" class="img-fluid" src="images/services/service-five.jpg" alt="Evde fizik tedavi">
+      </div>
+      <div class="col-lg-6">
+        <div class="contents">
+          <div class="section-title">
+            <h3>Evde Fizik Tedavi</h3>
+          </div>
+          <div class="text">
+            <p>İnme rehabilitasyonu, ameliyat sonrası kas geri kazanımı, kronik bel-boyun ağrıları veya nörolojik hastalıklarda hareket terapisi — uzman fizyoterapistimiz evinize gelir.</p>
+            <p>Hastanın kendi yaşam ortamında uygulanan seanslar daha hızlı sonuç verir; merdiven, banyo, mutfak gibi gerçek alanlarda günlük hareketleri yeniden kazanmak hedeflenir.</p>
+          </div>
+          <ul class="content-list">
+            <li><i class="far fa-check-circle"></i>İnme ve nörolojik rehabilitasyon</li>
+            <li><i class="far fa-check-circle"></i>Ortopedik operasyon sonrası bakım</li>
+            <li><i class="far fa-check-circle"></i>Kronik bel ve boyun ağrısı tedavisi</li>
+            <li><i class="far fa-check-circle"></i>Hareket ve denge egzersizleri</li>
+          </ul>
+          <a href="appointment.html" class="btn btn-style-one">Randevu Al</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sayfa Sonu CTA -->
+<section class="section bg-gray" style="padding: 60px 0;">
+  <div class="container text-center">
+    <div class="section-title">
+      <h3>İhtiyacınızı <span>Birlikte Belirleyelim</span></h3>
+      <p>Hangi hizmete ihtiyacınız olduğundan emin değil misiniz? Bize ulaşın, sizinle birlikte en uygun planı oluşturalım.</p>
+    </div>
+    <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+      <a href="appointment.html" class="btn btn-style-one">Hizmet Talebi Oluştur</a>
+      <a href="tel:+90XXXXXXXXXX" class="btn btn-style-one">Hemen Arayın</a>
+      <a href="https://wa.me/90XXXXXXXXXX" class="btn btn-style-one">WhatsApp ile Yazın</a>
+    </div>
+  </div>
+</section>
 
 <!--footer-main-->
 <footer class="footer-main">
@@ -443,32 +437,33 @@
             <div class="footer-logo">
               <figure>
                 <a href="index.html">
-                  <img loading="lazy" class="img-fluid" src="images/logo-2.png" alt="medic">
+                  <img loading="lazy" class="img-fluid" src="images/logo-2.png" alt="[Firma Adı] logo">
                 </a>
               </figure>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, temporibus?</p>
+            <p>[Firma Adı] olarak [Şehir] ve çevresinde uzman kadromuzla evde sağlık ve hasta bakım hizmetleri sunuyoruz. Sağlığınız, evinizin konforunda güvende.</p>
             <ul class="location-link">
               <li class="item">
                 <i class="fas fa-map-marker-alt"></i>
-                <p>Modamba, NY 80021, United States</p>
+                <p>[Adresiniz / Hizmet bölgeniz]</p>
               </li>
               <li class="item">
                 <i class="far fa-envelope" aria-hidden="true"></i>
-                <a href="mailto:support@medic.com">
-                  <p>support@medic.com</p>
+                <a href="mailto:[e-posta-adresiniz@ornek.com]">
+                  <p>[e-posta-adresiniz@ornek.com]</p>
                 </a>
               </li>
               <li class="item">
                 <i class="fas fa-phone" aria-hidden="true"></i>
-                <p>(88017) +123 4567</p>
+                <a href="tel:+90XXXXXXXXXX">
+                  <p>+90 (XXX) XXX XX XX</p>
+                </a>
               </li>
             </ul>
             <ul class="list-inline social-icons">
-              <li class="list-inline-item"><a href="https://facebook.com/themefisher" aria-label="facebook"><i class="fab fa-facebook-f"></i></a></li>
-              <li class="list-inline-item"><a href="https://twitter.com/themefisher" aria-label="twitter"><i class="fab fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a href="https://instagram.com/themefisher" aria-label="instagram"><i class="fab fa-instagram"></i></a></li>
-              <li class="list-inline-item"><a href="https://github.com/themefisher" aria-label="github"><i class="fab fa-github"></i></a></li>
+              <li class="list-inline-item"><a href="#" aria-label="facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" aria-label="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
             </ul>
           </div>
         </div>
@@ -582,6 +577,10 @@
 
 <!-- script js -->
 <script src="js/script.js"></script>
+<script>
+  // Footer'daki yili otomatik gunceller
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+</script>
 </body>
 
 </html>
