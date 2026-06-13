@@ -3321,3 +3321,49 @@ button:focus {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+/* === Footer Calisma Saatleri Widget === */
+.working-hours-widget h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.working-hours-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.working-hours-list .item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.working-hours-list .item:last-child {
+  border-bottom: none;
+}
+.working-hours-list .item i {
+  color: #fff;
+  font-size: 18px;
+  margin-right: 12px;
+  width: 22px;
+  text-align: center;
+}
+.working-hours-list .item p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.85);
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  font-size: 14px;
+}
+.working-hours-list .item p strong {
+  color: #fff;
+}
+.working-hours-list .item p a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+}
+.working-hours-list .item p a:hover {
+  color: #fff;
+}

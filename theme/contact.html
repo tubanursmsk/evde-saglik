@@ -229,7 +229,8 @@
       <div class="col-lg-8 col-md-7">
         <div class="contact-form">
           <!-- contact form start -->
-          <form action="!#" class="row">
+          <!-- NOT: action="#" su an form gonderildiginde hicbir sey yapmaz. Adim 6'da FormSubmit'e baglanacak. -->
+          <form action="#" method="post" class="row">
             <!-- name -->
             <div class="col-lg-6">
               <input type="text" name="name" class="form-control main" placeholder="Adınız" required>
@@ -277,32 +278,33 @@
             <div class="footer-logo">
               <figure>
                 <a href="index.html">
-                  <img loading="lazy" class="img-fluid" src="images/logo-2.png" alt="medic">
+                  <img loading="lazy" class="img-fluid" src="images/logo-2.png" alt="[Firma Adı] logo">
                 </a>
               </figure>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, temporibus?</p>
+            <p>[Firma Adı] olarak [Şehir] ve çevresinde uzman kadromuzla evde sağlık ve hasta bakım hizmetleri sunuyoruz. Sağlığınız, evinizin konforunda güvende.</p>
             <ul class="location-link">
               <li class="item">
                 <i class="fas fa-map-marker-alt"></i>
-                <p>Modamba, NY 80021, United States</p>
+                <p>[Adresiniz / Hizmet bölgeniz]</p>
               </li>
               <li class="item">
                 <i class="far fa-envelope" aria-hidden="true"></i>
-                <a href="mailto:support@medic.com">
-                  <p>support@medic.com</p>
+                <a href="mailto:[e-posta-adresiniz@ornek.com]">
+                  <p>[e-posta-adresiniz@ornek.com]</p>
                 </a>
               </li>
               <li class="item">
                 <i class="fas fa-phone" aria-hidden="true"></i>
-                <p>(88017) +123 4567</p>
+                <a href="tel:+90XXXXXXXXXX">
+                  <p>+90 (XXX) XXX XX XX</p>
+                </a>
               </li>
             </ul>
             <ul class="list-inline social-icons">
-              <li class="list-inline-item"><a href="https://facebook.com/themefisher" aria-label="facebook"><i class="fab fa-facebook-f"></i></a></li>
-              <li class="list-inline-item"><a href="https://twitter.com/themefisher" aria-label="twitter"><i class="fab fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a href="https://instagram.com/themefisher" aria-label="instagram"><i class="fab fa-instagram"></i></a></li>
-              <li class="list-inline-item"><a href="https://github.com/themefisher" aria-label="github"><i class="fab fa-github"></i></a></li>
+              <li class="list-inline-item"><a href="#" aria-label="facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" aria-label="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
             </ul>
           </div>
         </div>
@@ -416,6 +418,10 @@
 
 <!-- script js -->
 <script src="js/script.js"></script>
+<script>
+  // Footer'daki yili otomatik gunceller
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+</script>
 </body>
 
 </html>

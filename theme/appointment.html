@@ -101,17 +101,17 @@
               </div>
               <strong>E-posta</strong>
               <br>
-              <a href="mailto:info@medic.com">
-                <span>info@medic.com</span>
+              <a href="mailto:[e-posta-adresiniz@ornek.com]">
+                <span>[e-posta-adresiniz@ornek.com]</span>
               </a>
             </li>
             <li class="item text-left">
               <div class="icon-box">
                 <i class="fas fa-phone"></i>
               </div>
-              <strong>Hemen Ara</strong>
+              <strong>Hemen Arayın</strong>
               <br>
-               <a href="tel:+90XXXXXXXXXX">
+              <a href="tel:+90XXXXXXXXXX">
                 <span>+90 (XXX) XXX XX XX</span>
               </a>
             </li>
@@ -181,54 +181,51 @@
 </section>
 <!--End Page Title-->
 
-<!-- Section -->
+<!-- Randevu Formu -->
 <section class="section style-three pb-0">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 order-1 order-lg-0">
         <div class="contact-area style-two pl-0 pr-0 pr-lg-4">
           <div class="section-title">
-            <h3>Request <span>Appointment</span></h3>
+            <h3>Hizmet <span>Talebi</span></h3>
           </div>
-          <form name="contact_form" class="default-form contact-form" action="!#" method="post">
+          <p class="mb-4">Aşağıdaki formu doldurun, en kısa sürede sizinle iletişime geçelim. Acil durumlar için doğrudan arayabilir veya WhatsApp üzerinden yazabilirsiniz.</p>
+
+          <!-- FORM: Adim 4'un son isi olarak FormSubmit'e baglanacak. -->
+          <!-- Su an "action=#" oldugu icin form gonderildiginde hicbir sey yapmaz; bu normal. -->
+          <form name="contact_form" class="default-form contact-form" action="#" method="post">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <input class="form-control" type="text" name="Name" placeholder="Name" required="">
+                  <input class="form-control" type="text" name="name" placeholder="Ad Soyad" required="">
                 </div>
                 <div class="form-group">
-                  <input class="form-control" type="email" name="Email" placeholder="Email" required="">
-                </div>
-                <div class="form-group">
-                  <select class="form-control" name="subject">
-                    <option>Departments</option>
-                    <option>Diagnostic</option>
-                    <option>Psychological</option>
-                  </select>
+                  <input class="form-control" type="tel" name="phone" placeholder="Telefon" required="">
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <input class="form-control" type="text" name="Phone" placeholder="Phone" required="">
+                  <input class="form-control" type="email" name="email" placeholder="E-posta" required="">
                 </div>
                 <div class="form-group">
-                  <input class="form-control" type="text" name="Date" placeholder="Date" required="" id="datepicker" autocomplete="off">
-                  <i class="fa fa-calendar" aria-hidden="true"></i>
-                </div>
-                <div class="form-group">
-                  <select class="form-control" name="subject">
-                    <option>Doctor</option>
-                    <option>Diagnostic</option>
-                    <option>Psychological</option>
+                  <select class="form-control" name="service" required>
+                    <option value="">Hizmet Türü Seçiniz</option>
+                    <option value="evde-hemsirelik">Evde Hemşirelik</option>
+                    <option value="yasli-hasta-bakimi">Yaşlı ve Hasta Bakımı</option>
+                    <option value="evde-doktor-muayenesi">Evde Doktor Muayenesi</option>
+                    <option value="enjeksiyon-serum">Enjeksiyon ve Serum</option>
+                    <option value="fizik-tedavi">Evde Fizik Tedavi</option>
+                    <option value="diger">Diğer (mesajda belirtin)</option>
                   </select>
                 </div>
               </div>
               <div class="col-md-12">
                 <div class="form-group">
-                  <textarea class="form-control" name="form_message" placeholder="Your Message" required=""></textarea>
+                  <textarea class="form-control" name="message" placeholder="Mesajınız (hastanın durumu, tercih ettiğiniz gün/saat aralığı vb.)" rows="5" required=""></textarea>
                 </div>
                 <div class="form-group text-center">
-                  <button type="submit" class="btn-style-one">submit now</button>
+                  <button type="submit" class="btn-style-one">Talebi Gönder</button>
                 </div>
               </div>
             </div>
@@ -238,60 +235,54 @@
       <div class="col-lg-6 mb-4 mb-lg-0 order-0 order-lg-1">
         <div class="appointment-image-holder ml-0 ml-lg-4">
           <figure>
-            <img loading="lazy" class="w-100" src="images/background/appoinment.jpg" alt="Appointment">
+            <img loading="lazy" class="w-100" src="images/background/appoinment.jpg" alt="[Firma Adı] randevu görseli">
           </figure>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End Section -->
+<!-- End Randevu Formu -->
 
-<!--team section-->
-<section class="team-section section">
+<!-- Süreç Adımları -->
+<section class="section bg-gray">
   <div class="container">
     <div class="section-title text-center">
-      <h3>Our Expert
-        <span>Doctors</span>
-      </h3>
-      <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem illo, rerum
-        <br>natus nobis deleniti doloremque minima odit voluptatibus ipsam animi?</p>
+      <h3>Talebiniz Sonrası <span>Süreç</span></h3>
+      <p>Formu gönderdikten sonra adım adım sizi bekleyen süreç:</p>
     </div>
     <div class="row justify-content-center">
-      <div class="col-lg-4 col-md-6">
-        <div class="team-member">
-          <img loading="lazy" src="images/team/doctor-2.jpg" alt="doctor" class="img-fluid">
-          <div class="contents text-center">
-            <h4>Dr. Robert Barrethion</h4>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, aspernatur.</p>
-            <a href="appointment.html" class="btn btn-main">Book Appointment</a>
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+        <div class="text-center p-3">
+          <div class="mb-3" style="font-size: 36px; color: #149997;">
+            <i class="fas fa-phone-volume"></i>
           </div>
+          <h4>1. Sizi Arıyoruz</h4>
+          <p>Talebinizi aldığımız andan itibaren en geç [süre - örn. 30 dakika] içinde sizinle iletişime geçeriz, ihtiyacınızı detaylıca anlarız.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+        <div class="text-center p-3">
+          <div class="mb-3" style="font-size: 36px; color: #149997;">
+            <i class="fas fa-user-check"></i>
+          </div>
+          <h4>2. Ekibi Belirliyoruz</h4>
+          <p>Hastanızın durumuna uygun, deneyimli sağlık personelimizi belirler, randevu tarihini ve saatini birlikte planlarız.</p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
-        <div class="team-member">
-          <img loading="lazy" src="images/team/doctor-lab-3.jpg" alt="doctor" class="img-fluid">
-          <div class="contents text-center">
-            <h4>Dr. Marry Lou</h4>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, aspernatur.</p>
-            <a href="appointment.html" class="btn btn-main">Book Appointment</a>
+        <div class="text-center p-3">
+          <div class="mb-3" style="font-size: 36px; color: #149997;">
+            <i class="fas fa-home"></i>
           </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="team-member">
-          <img loading="lazy" src="images/team/event-2.jpg" alt="doctor" class="img-fluid">
-          <div class="contents text-center">
-            <h4>Dr. Sansa Stark</h4>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, aspernatur.</p>
-            <a href="appointment.html" class="btn btn-main">Book Appointment</a>
-          </div>
+          <h4>3. Evinize Geliyoruz</h4>
+          <p>Belirlenen saatte ekibimiz tüm gerekli malzemelerle evinize gelir, hijyenik ve güvenli ortamda hizmetinizi sunar.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!--End team section-->
+<!-- End Süreç Adımları -->
 
 <!--footer-main-->
 <footer class="footer-main">
@@ -303,32 +294,33 @@
             <div class="footer-logo">
               <figure>
                 <a href="index.html">
-                  <img loading="lazy" class="img-fluid" src="images/logo-2.png" alt="medic">
+                  <img loading="lazy" class="img-fluid" src="images/logo-2.png" alt="[Firma Adı] logo">
                 </a>
               </figure>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, temporibus?</p>
+            <p>[Firma Adı] olarak [Şehir] ve çevresinde uzman kadromuzla evde sağlık ve hasta bakım hizmetleri sunuyoruz. Sağlığınız, evinizin konforunda güvende.</p>
             <ul class="location-link">
               <li class="item">
                 <i class="fas fa-map-marker-alt"></i>
-                <p>Modamba, NY 80021, United States</p>
+                <p>[Adresiniz / Hizmet bölgeniz]</p>
               </li>
               <li class="item">
                 <i class="far fa-envelope" aria-hidden="true"></i>
-                <a href="mailto:support@medic.com">
-                  <p>support@medic.com</p>
+                <a href="mailto:[e-posta-adresiniz@ornek.com]">
+                  <p>[e-posta-adresiniz@ornek.com]</p>
                 </a>
               </li>
               <li class="item">
                 <i class="fas fa-phone" aria-hidden="true"></i>
-                <p>(88017) +123 4567</p>
+                <a href="tel:+90XXXXXXXXXX">
+                  <p>+90 (XXX) XXX XX XX</p>
+                </a>
               </li>
             </ul>
             <ul class="list-inline social-icons">
-              <li class="list-inline-item"><a href="https://facebook.com/themefisher" aria-label="facebook"><i class="fab fa-facebook-f"></i></a></li>
-              <li class="list-inline-item"><a href="https://twitter.com/themefisher" aria-label="twitter"><i class="fab fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a href="https://instagram.com/themefisher" aria-label="instagram"><i class="fab fa-instagram"></i></a></li>
-              <li class="list-inline-item"><a href="https://github.com/themefisher" aria-label="github"><i class="fab fa-github"></i></a></li>
+              <li class="list-inline-item"><a href="#" aria-label="facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" aria-label="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
             </ul>
           </div>
         </div>
@@ -442,6 +434,10 @@
 
 <!-- script js -->
 <script src="js/script.js"></script>
+<script>
+  // Footer'daki yili otomatik gunceller
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+</script>
 
 </body>
 
