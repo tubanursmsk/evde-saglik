@@ -194,8 +194,15 @@
 
           <!-- FORM: Adim 4'un son isi olarak FormSubmit'e baglanacak. -->
           <!-- Su an "action=#" oldugu icin form gonderildiginde hicbir sey yapmaz; bu normal. -->
-          <form name="contact_form" class="default-form contact-form" action="#" method="post">
+          <form name="contact_form" class="default-form contact-form" action="https://formsubmit.co/tubanursmsk@gmail.com" method="POST">
             <div class="row">
+               <!-- FormSubmit ayar alanlari (gizli) -->
+            <input type="hidden" name="_subject" value="Yeni Hizmet Talebi - [Firma Adı] Site">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://www.siteadresiniz.com/tesekkur.html">
+            <input type="hidden" name="_autoresponse" value="Merhaba, hizmet talebinizi aldık. Ekibimiz en kısa sürede sizinle iletişime geçerek detayları konuşacaktır. Teşekkür ederiz. — [Firma Adı] Ekibi">
+            <input type="text" name="_honey" style="display:none">
               <div class="col-md-6">
                 <div class="form-group">
                   <input class="form-control" type="text" name="name" placeholder="Ad Soyad" required="">
@@ -209,7 +216,7 @@
                   <input class="form-control" type="email" name="email" placeholder="E-posta" required="">
                 </div>
                 <div class="form-group">
-                  <select class="form-control" name="service" required>
+                  <select class="form-control" name="servis" required>
                     <option value="">Hizmet Türü Seçiniz</option>
                     <option value="evde-hemsirelik">Evde Hemşirelik</option>
                     <option value="yasli-hasta-bakimi">Yaşlı ve Hasta Bakımı</option>
@@ -222,7 +229,7 @@
               </div>
               <div class="col-md-12">
                 <div class="form-group">
-                  <textarea class="form-control" name="message" placeholder="Mesajınız (hastanın durumu, tercih ettiğiniz gün/saat aralığı vb.)" rows="5" required=""></textarea>
+                  <textarea class="form-control" name="mesaj" placeholder="Mesajınız (hastanın durumu, tercih ettiğiniz gün/saat aralığı vb.)" rows="5" required=""></textarea>
                 </div>
                 <div class="form-group text-center">
                   <button type="submit" class="btn-style-one">Talebi Gönder</button>

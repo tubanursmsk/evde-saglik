@@ -228,26 +228,36 @@
       </div>
       <div class="col-lg-8 col-md-7">
         <div class="contact-form">
+         
           <!-- contact form start -->
-          <!-- NOT: action="#" su an form gonderildiginde hicbir sey yapmaz. Adim 6'da FormSubmit'e baglanacak. -->
-          <form action="#" method="post" class="row">
-            <!-- name -->
+         <!-- FormSubmit entegrasyonu - PLACEHOLDER-EMAIL bolumunu musterinin gercek e-postasi ile degistir -->
+          <form action="https://formsubmit.co/tubanursmsk@gmail.com" method="POST" class="row">
+            <!-- FormSubmit ayar alanlari (gizli) -->
+            <input type="hidden" name="_subject" value="Yeni İletişim Mesajı - [Firma Adı] Site">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://www.siteadresiniz.com/tesekkur.html">
+            <input type="hidden" name="_autoresponse" value="Merhaba, mesajınızı aldık. Ekibimiz en kısa sürede sizinle iletişime geçecektir. Teşekkür ederiz. — [Firma Adı] Ekibi">
+            <!-- Bot tuzagi (gozukmez, sadece botlar doldurur) -->
+            <input type="text" name="_honey" style="display:none">
+
+            <!-- Ad -->
             <div class="col-lg-6">
-              <input type="text" name="name" class="form-control main" placeholder="Adınız" required>
+              <input type="text" name="ad" class="form-control main" placeholder="Adınız" required>
             </div>
-            <!-- email -->
+            <!-- Email -->
             <div class="col-lg-6">
               <input type="email" name="email" class="form-control main" placeholder="E-posta" required>
             </div>
-            <!-- phone -->
+            <!-- Telefon -->
             <div class="col-lg-12">
-              <input type="tel" name="phone" class="form-control main" placeholder="Telefon Numaranız" required>
+              <input type="tel" name="telefon" class="form-control main" placeholder="Telefon Numaranız" required>
             </div>
-            <!-- message -->
+            <!-- Mesaj -->
             <div class="col-lg-12">
-              <textarea name="message" rows="10" class="form-control main" placeholder="Mesajınız" required></textarea>
+              <textarea name="mesaj" rows="10" class="form-control main" placeholder="Mesajınız" required></textarea>
             </div>
-            <!-- submit button -->
+            <!-- Gonder -->
             <div class="col-md-12 text-right">
               <button class="btn btn-style-one" type="submit">Mesajı Gönder</button>
             </div>
