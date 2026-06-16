@@ -1,0 +1,15 @@
+# [Firma Adı] - robots.txt
+# Bu dosya site kok dizininde olmali: https://www.siteadresiniz.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Gizli sayfalar - arama sonuclarinda gozukmemeli
+Disallow: /tesekkur.html
+Disallow: /blog-details.html
+
+# Sitemap konumu
+# YAYINDAN ONCE: musterinin gercek domaini ile degistir
+Sitemap: https://www.siteadresiniz.com/sitemap.xml
+
+
