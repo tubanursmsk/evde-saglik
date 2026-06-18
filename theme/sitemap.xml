@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   [Firma Adı] - sitemap.xml
-  YAYINDAN ONCE TUM "www.siteadresiniz.com" placeholder'larini
+  YAYINDAN ONCE TUM "evdesaglikhizmetleri.tubanursimsek.com.tr" placeholder'larini
   musterinin gercek domaini ile degistir.
 
   Olusturulma tarihi: 2026-06-16
@@ -11,7 +11,7 @@
 
   <!-- Ana sayfa - en yuksek oncelik -->
   <url>
-    <loc>https://www.siteadresiniz.com/</loc>
+    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.tr</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -19,19 +19,19 @@
 
   <!-- Donusum sayfalari - yuksek oncelik -->H
   <url>
-    <loc>https://www.siteadresiniz.com/service.html</loc>
+    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trservice.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.siteadresiniz.com/appointment.html</loc>
+    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trappointment.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.siteadresiniz.com/contact.html</loc>
+    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trcontact.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -39,19 +39,19 @@
 
   <!-- Kurumsal sayfalar -->
   <url>
-    <loc>https://www.siteadresiniz.com/about.html</loc>
+    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trabout.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.siteadresiniz.com/team.html</loc>
+    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trteam.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.siteadresiniz.com/blog.html</loc>
+    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trblog.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -59,25 +59,25 @@
 
   <!-- Blog yazilari -->
   <url>
-    <loc>https://www.siteadresiniz.com/blog-yazi-1.html</loc>
+    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trblog-yazi-1.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.siteadresiniz.com/blog-yazi-2.html</loc>
+    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trblog-yazi-2.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.siteadresiniz.com/blog-yazi-3.html</loc>
+    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trblog-yazi-3.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.siteadresiniz.com/blog-yazi-4.html</loc>
+    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trblog-yazi-4.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +85,7 @@
 
   <!-- Galeri - dusuk oncelik -->
   <url>
-    <loc>https://www.siteadresiniz.com/gallery.html</loc>
+    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trgallery.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
