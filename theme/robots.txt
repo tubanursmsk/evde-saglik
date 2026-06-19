@@ -1,5 +1,5 @@
 # [Firma Adı] - robots.txt
-# Bu dosya site kok dizininde olmali: http://evdehastabakimi.tubanursimsek.com.tr/robots.txt
+# Bu dosya site kok dizininde olmali: https://evdesaglikhizmetleri.tubanursimsek.com.tr/robots.txt
 
 User-agent: *
 Allow: /
@@ -10,6 +10,6 @@ Disallow: /blog-details.html
 
 # Sitemap konumu
 # YAYINDAN ONCE: musterinin gercek domaini ile degistir
-Sitemap: http://evdesaglikhizmetleri.tubanursimsek.com.tr/sitemap.xml
+Sitemap: https://evdesaglikhizmetleri.tubanursimsek.com.tr/sitemap.xml
 
 

@@ -11,7 +11,7 @@
 
   <!-- Ana sayfa - en yuksek oncelik -->
   <url>
-    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.tr</loc>
+    <loc>https://evdesaglikhizmetleri.tubanursimsek.com.tr</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -19,19 +19,19 @@
 
   <!-- Donusum sayfalari - yuksek oncelik -->H
   <url>
-    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trservice.html</loc>
+    <loc>https://evdesaglikhizmetleri.tubanursimsek.com.trservice.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trappointment.html</loc>
+    <loc>https://evdesaglikhizmetleri.tubanursimsek.com.trappointment.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trcontact.html</loc>
+    <loc>https://evdesaglikhizmetleri.tubanursimsek.com.trcontact.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -39,19 +39,19 @@
 
   <!-- Kurumsal sayfalar -->
   <url>
-    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trabout.html</loc>
+    <loc>https://evdesaglikhizmetleri.tubanursimsek.com.trabout.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trteam.html</loc>
+    <loc>https://evdesaglikhizmetleri.tubanursimsek.com.trteam.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trblog.html</loc>
+    <loc>https://evdesaglikhizmetleri.tubanursimsek.com.trblog.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -59,25 +59,25 @@
 
   <!-- Blog yazilari -->
   <url>
-    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trblog-yazi-1.html</loc>
+    <loc>https://evdesaglikhizmetleri.tubanursimsek.com.trblog-yazi-1.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trblog-yazi-2.html</loc>
+    <loc>https://evdesaglikhizmetleri.tubanursimsek.com.trblog-yazi-2.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trblog-yazi-3.html</loc>
+    <loc>https://evdesaglikhizmetleri.tubanursimsek.com.trblog-yazi-3.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trblog-yazi-4.html</loc>
+    <loc>https://evdesaglikhizmetleri.tubanursimsek.com.trblog-yazi-4.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +85,7 @@
 
   <!-- Galeri - dusuk oncelik -->
   <url>
-    <loc>http://evdesaglikhizmetleri.tubanursimsek.com.trgallery.html</loc>
+    <loc>https://evdesaglikhizmetleri.tubanursimsek.com.trgallery.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
