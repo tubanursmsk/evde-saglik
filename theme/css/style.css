@@ -3426,3 +3426,25 @@ button:focus {
 #back-to-top {
   bottom: 100px !important;
 }
+
+/* ============================================== */
+/*  Logo boyut sinirlamalari (custom overrides)   */
+/* ============================================== */
+
+/* Header logosu - kirmizi okun gosterdigi alanda kalsin */
+.header-uper .logo img {
+  max-height: 80px;
+  max-width: 240px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Footer logosu (logo-2.png eklendiginde de calisacak) */
+.footer-logo img {
+  max-height: 70px;
+  max-width: 220px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}

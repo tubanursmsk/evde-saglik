@@ -49,12 +49,144 @@
   gtag('config', 'G-5HK23CTGCT');
 </script>
 
-</head>
 
+  <!-- JSON-LD LocalBusiness Schema -->
+   <!--
+  JSON-LD LocalBusiness Schema
+  =============================
+  Bu kod sadece index.html'in <head> bolumune eklenecek.
+  Diger sayfalara YAPILMAYACAK - sadece ana sayfada olmali (Google bunu boyle ister).
+
+  YAYIN ONCESI DOLDURULACAKLAR:
+  1. "telephone" - musterinin gercek telefon numarasi
+  2. "email" - musterinin gercek e-posta adresi
+  3. "openingHoursSpecification" - calisma saatleri (su anda placeholder)
+  4. "areaServed" - hizmet verilen ilceler (Antalya'nin hangi bolgeleri?)
+  5. Sosyal medya hesaplarinin URL'leri (varsa) - "sameAs" listesine
+  6. "logo" ve "image" - gercek logoyu yukledikten sonra dogru URL
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "Evde Sağlık Hizmetleri",
+  "alternateName": "Evde Sağlık Hizmetleri Antalya",
+  "description": "Antalya ve çevresinde evde hemşirelik, hasta ve yaşlı bakımı, evde doktor muayenesi, enjeksiyon ve fizik tedavi hizmetleri sunan profesyonel evde sağlık işletmesi.",
+  "url": "https://evdesaglikhizmetleri.tubanursimsek.com.tr/",
+  "logo": "https://evdesaglikhizmetleri.tubanursimsek.com.tr/images/logo.png",
+  "image": "https://evdesaglikhizmetleri.tubanursimsek.com.tr/images/logo.png",
+  "telephone": "+90XXXXXXXXXX",
+  "email": "[e-posta-adresiniz@ornek.com]",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Antalya",
+    "addressRegion": "Antalya",
+    "addressCountry": "TR"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Antalya"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Muratpaşa"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Kepez"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Konyaaltı"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Aksu"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Döşemealtı"
+    }
+  ],
+  "medicalSpecialty": [
+    "Nursing",
+    "Geriatric",
+    "PhysicalTherapy"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Evde Sağlık Hizmetleri",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Evde Hemşirelik",
+          "description": "Pansuman, sonda takibi, hastane çıkışı sonrası bakım ve ilaç uygulamaları."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Yaşlı ve Hasta Bakımı",
+          "description": "Günlük kişisel bakım, ilaç takibi ve refakat hizmetleri."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Evde Doktor Muayenesi",
+          "description": "Genel muayene, kronik hastalık takibi ve reçete yenileme."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Enjeksiyon ve Serum Uygulaması",
+          "description": "Doktor reçetesi ile tek kullanımlık malzemelerle hijyenik enjeksiyon ve serum."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Evde Fizik Tedavi",
+          "description": "İnme rehabilitasyonu, ortopedik bakım ve kronik ağrı tedavisi."
+        }
+      }
+    ]
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/[FACEBOOK-HESAP-ADI]",
+    "https://www.instagram.com/[INSTAGRAM-HESAP-ADI]"
+  ]
+}
+</script>
+  
+
+</head>
 
 <body>
   <div class="page-wrapper">
-
   
 
 <!--header top-->
