@@ -351,6 +351,8 @@ li {
   margin-top: 5px;
 }
 
+
+
 .navbar {
   margin-bottom: 0;
   background: #48bdc5;
@@ -3427,24 +3429,22 @@ button:focus {
   bottom: 100px !important;
 }
 
-/* ============================================== */
-/*  Logo boyut sinirlamalari (custom overrides)   */
-/* ============================================== */
 
-/* Header logosu - kirmizi okun gosterdigi alanda kalsin */
+/* Header logosu */
 .header-uper .logo img {
-  max-height: 80px;
-  max-width: 240px;
+  max-height: 110px;    /* 80 → 110 */
+  max-width: 300px;     /* 240 → 300 */
   width: auto;
   height: auto;
   object-fit: contain;
 }
 
-/* Footer logosu (logo-2.png eklendiginde de calisacak) */
+/* Footer logosu */
 .footer-logo img {
-  max-height: 70px;
-  max-width: 220px;
+  max-height: 90px;     /* 70 → 90 */
+  max-width: 260px;     /* 220 → 260 */
   width: auto;
   height: auto;
   object-fit: contain;
 }
+
